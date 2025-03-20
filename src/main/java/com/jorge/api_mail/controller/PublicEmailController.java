@@ -9,6 +9,7 @@ import com.jorge.api_mail.service.EmailService;
 
 @RestController
 @RequestMapping("/api/public/emails")
+@CrossOrigin(origins = "*")
 public class PublicEmailController {
 
     @Autowired
